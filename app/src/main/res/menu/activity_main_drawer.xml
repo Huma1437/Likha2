@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_action_feed"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_action_video"
+            android:title="Learn Online" />
+        <item
+            android:id="@+id/nav_materials"
+            android:icon="@drawable/ic_action_materials"
+            android:title="Materials" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_action_product"
+            android:title="My Products" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_action_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_action_category"
+            android:title="Change Category" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_policy"
+                android:title="Policy and Terms" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+
+
+        </menu>
+    </item>
+
+</menu>

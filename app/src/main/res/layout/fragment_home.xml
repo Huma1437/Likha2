@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/bg_img"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:src="@drawable/wstart_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below = "@id/bg_img"
+                android:layout_margin="20dp"
+                android:layout_gravity="center">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/startup"
+                    android:lineSpacingExtra="8dp"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/primary_text" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Want to be an Entrepreneur? If Yes! Hit the below Button"
+                android:textColor="@color/primary_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Upload My Product"
+                android:textColor="@color/icons"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="@color/primary_dark"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

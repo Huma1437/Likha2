@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LIKHA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="ALLinone">Allow Likha to access following permissions : \n \u0020 \n
+        <b>Photos/Media/Files</b> \n \u0020 \u2022 read the contents of your USB storage \n \u0020 \u2022 modify or delete the contents of your USB storage \n\u0020 \n
+    </string>
+    <string name="str_img1">
+        The most well-known face amongst Indian women entrepreneurs -Indra Nooyi is the CFO and President of PepsiCo. \n\n
+        With a Masters Degree in Public Management from Yale University and Masters in Finance and Marketing from IIM,
+        Kolkata, Nooyi held several senior positions at Motorola and Asea Brown Boveri before joining PepsiCo. \n\n
+        Born in Chennai, Indra did her Bachelor’s in Science from Madras Christian College in 1974 . \n\n
+        Beginning her career in India, Nooyi held product manager positions at Johnson and Johnson and textile firm Mettur Beardsell.
+        Nooyi joined PepsiCo in 1994 and was named president and CFO in 2001.
+        She has been conferred with prestigious Padma Bhushan for her business achievements and being an inspiration to India’s corporate leadership. \n\n
+        Her strong acumen for business has helped the company garner as much as 30 billion dollars worth of crucial deals within the last couple of years. \n\n
+
+    </string>
+
+    <string name="startup">
+        "The critical ingredient is getting off your butt and doing something. It is as simple as that. A lot of people have ideas, but there are few who decide to do something about them now. Not tomorrow. Not next week. But today. The true entrepreneur is a doer, not a dreamer." \n
+    </string>
+
+
+    <string name="category">Select Category</string>
+    <string name="title_activity_discover_">Discover</string>
+</resources>

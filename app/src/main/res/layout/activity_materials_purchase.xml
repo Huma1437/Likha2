@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_materials_purchase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="economic_freedom.com.likha.Materials_Purchase">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Materials"
+    android:gravity="center"
+    android:textSize="27sp"
+    android:textStyle="bold"
+    android:textColor="@color/primary_dark"/>
+            <ImageView
+                android:id="@+id/img_one"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:padding="10dp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_1"
+                android:padding="10dp"
+                android:background="@color/primary_dark"
+                android:textColor="@color/icons"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:id="@+id/img_two"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_2"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/primary_dark"
+                android:textColor="@color/icons"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
